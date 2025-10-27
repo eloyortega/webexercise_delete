@@ -1,3 +1,31 @@
+header, footer{
+    display:flex;
+    justify-content: space-between;
+}
+nav ul{
+    display:flex;
+}
+
+nav li{
+    list-style: none;
+    padding:20px;
+}
+
+nav a{
+    font-size: 20px;
+    color:black;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color:#aaa;
+}
+
+footer small{
+    padding:20px;
+}
+
 
 h1 {
     font-family: "Ballet", cursive;
