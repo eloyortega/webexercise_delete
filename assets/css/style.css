@@ -1,0 +1,92 @@
+
+h1 {
+    font-family: "Ballet", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #00aaaa;
+}
+
+
+p {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+    color: #0000ff;
+}
+
+.location{
+    font-size: 20px;
+    color:#6f6f6f;
+}
+
+#e1{
+    color:#00ff00;
+}
+
+h2{
+    font-family: arial;
+    font-weight: normal;
+}
+
+h2{
+    font-family: impact;
+}
+
+
+#xp{
+    color: #ff0000;
+}
+
+#ed{
+    color: #006600;
+}
+
+.colcontainer{
+    display:flex;
+}
+
+.colcontainer div{
+    padding:20px;
+    background:#00aaaa;
+}
+
+.btn{
+    display:inline-block;
+    background:violet;
+    padding:20px;
+    text-decoration: none;
+    font-family:verdana;
+    color:#fff;
+    font-weight: bold;
+    font-size:20px;    
+}
+
+@keyframes foo{
+    0%{
+        background:violet;
+        transform:scale(1,1) rotateY(0deg);
+    }
+    100%{
+        background:#000;
+        transform: scale(1.1,1.1) rotateY(360deg);
+    }
+}
+
+
+.btn:hover{
+    animation: foo 1s ease-in 1;
+    transform:scale(1.1,1.1);
+    background:#000;
+    box-shadow: 10px 5px 20px 1px #ff99bb;
+}
+
+
+
+
+
+
+
+
+
+
